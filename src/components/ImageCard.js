@@ -18,7 +18,11 @@ this.setState({spans:spans});
   }
   render() {
       const {description, urls} = this.props.image;
+
+      
     return (
+
+   
       <div style= {{gridRowEnd: `span ${this.state.spans}`}}>
         <img
         ref={this.imageRef}
@@ -26,6 +30,7 @@ this.setState({spans:spans});
           src={urls.regular}
         />
       </div>
+      
     );
   }
 }
