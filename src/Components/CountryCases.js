@@ -6,7 +6,7 @@ class CountryCases extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedCountry: "United States of America",
+      selectedCountry: "afghanistan",
       countries: null,
       countriesFormatted: null,
     };
