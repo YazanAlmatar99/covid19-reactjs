@@ -1,5 +1,5 @@
 import React from "react";
-import { Dropdown } from "semantic-ui-react";
+import { Dropdown, Header } from "semantic-ui-react";
 import axios from "axios";
 import LineChart from "./LineChart";
 class CountryCases extends React.Component {

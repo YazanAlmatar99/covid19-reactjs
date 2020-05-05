@@ -27,7 +27,7 @@ class covid extends React.Component {
     if (this.state.res) {
       return (
         <div className="root-wrapper">
-          <Segment className="shadow custom-background">
+          <Segment className="shadow custom-background seg-1 margin-btm-20">
             <div className="header-wrapper">
               <Header as="h1" icon>
                 <Icon name="rss" />
@@ -38,13 +38,17 @@ class covid extends React.Component {
               </Header>
             </div>
           </Segment>
-          <Segment className="shadow custom-background">
+          <Segment className="shadow custom-background seg-2 margin-btm-20">
+            <Header as="h2" style={{ textAlign: "center" }}>
+              Worldwide
+            </Header>
+
             <PieChart data={this.state.res.data.Global} />
           </Segment>
-          <Segment className="shadow">
+          <Segment className="shadow seg-3 margin-btm-20">
             <CountryCases />
           </Segment>
-          <Segment className="shadow custom-background">
+          <Segment className="seg-4">
             <div className="footer">
               <h5>Powered by Yazan Almatar &copy;</h5>
               <a

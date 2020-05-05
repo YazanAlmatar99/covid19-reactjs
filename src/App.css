@@ -67,3 +67,25 @@ Header {
     width: 80%;
   }
 }
+@media only screen and (min-width: 600px) {
+  .seg-1 {
+    width: 50%;
+    margin: auto !important;
+    margin-bottom: 20px;
+  }
+  .seg-2 {
+    width: 50%;
+    margin: auto !important;
+  }
+  .seg-3 {
+    width: 50%;
+    margin: auto !important;
+  }
+  .margin-btm-20 {
+    margin-bottom: 20px !important;
+  }
+  .seg-4 {
+    width: 50%;
+    margin: auto !important;
+  }
+}
