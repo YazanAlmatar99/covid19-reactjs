@@ -51,7 +51,7 @@ class LineChart extends React.Component {
           datesArr1: dates,
           chartData1: [
             {
-              label: "Confirmed Cases",
+              label: `Confirmed Cases in ${this.props.selected}`,
               data: cases,
               backgroundColor: "#44bcd8",
             },
@@ -82,7 +82,7 @@ class LineChart extends React.Component {
           datesArr2: datesArr,
           chartData2: [
             {
-              label: "Death Cases",
+              label: `Death Cases in ${this.props.selected}`,
               data: deathsArr,
               backgroundColor: "#cb0042",
             },
@@ -109,7 +109,7 @@ class LineChart extends React.Component {
           datesArr3: datesArr,
           chartData3: [
             {
-              label: "Recovered Cases",
+              label: `Recovered Cases in ${this.props.selected}`,
               data: recoveredArr,
               backgroundColor: "#009452",
             },
