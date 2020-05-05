@@ -27,17 +27,15 @@ class covid extends React.Component {
     if (this.state.res) {
       return (
         <div className="root-wrapper">
-          <Segment className="shadow custom-background seg-1 margin-btm-20">
-            <div className="header-wrapper">
-              <Header as="h1" icon>
-                <Icon name="rss" />
-                COVID19
-                <Header.Subheader>
-                  Live data of COVID-19 cases in the world from the CDC and WHO
-                </Header.Subheader>
-              </Header>
-            </div>
-          </Segment>
+          <div className="header-wrapper">
+            <Header as="h1" icon>
+              <Icon name="rss" />
+              COVID19
+              <Header.Subheader>
+                Live data of COVID-19 cases in the world from the CDC and WHO
+              </Header.Subheader>
+            </Header>
+          </div>
           <Segment className="shadow custom-background seg-2 margin-btm-20">
             <Header as="h2" style={{ textAlign: "center" }}>
               Worldwide
@@ -48,18 +46,16 @@ class covid extends React.Component {
           <Segment className="shadow seg-3 margin-btm-20">
             <CountryCases />
           </Segment>
-          <Segment className="seg-4">
-            <div className="footer">
-              <h5>Powered by Yazan Almatar &copy;</h5>
-              <a
-                href="https://www.yazanalmatar.com"
-                target="_blank"
-                onClick={this.track}
-              >
-                yazanalmatar.com
-              </a>
-            </div>
-          </Segment>
+          <div className="footer">
+            <h5>Powered by Yazan Almatar &copy;</h5>
+            <a
+              href="https://www.yazanalmatar.com"
+              target="_blank"
+              onClick={this.track}
+            >
+              yazanalmatar.com
+            </a>
+          </div>
         </div>
       );
     } else {

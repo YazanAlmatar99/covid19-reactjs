@@ -4,7 +4,7 @@ html {
 body {
   height: 100%;
   background-color: #fdfaff;
-  background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png") !important;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png") !important;
 }
 #root {
   height: 100%;
@@ -50,7 +50,7 @@ Header {
   box-shadow: 0.1px 0.1px 10px !important;
 }
 .custom-background {
-  background-image: url("https://www.transparenttextures.com/patterns/mocha-grunge.png") !important;
+  background-image: url("https://www.transparenttextures.com/patterns/cross-scratches.png") !important;
 }
 .update-button {
   width: 35%;
